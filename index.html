@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">    
     <!-- font -->
     <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <title>Simple calculator</title>
 </head>
 <body>
@@ -18,39 +19,39 @@
         <!-- /header -->
 
         <!-- display -->
-        <div class="display">
+        <div class="display flex">
             <span class="text-display">0</span>
         </div>
         <!-- /display -->
 
 
         <!-- main-calc -->
-        <div class="main-calc">
+        <div class="main-calc flex">
 
             <!-- calc-sx -->
-            <div class="calc-sx">
-                <button class="btn number">7</button>
-                <button class="btn number">8</button>
-                <button class="btn number">9</button>
-                <button class="btn number">4</button>
-                <button class="btn number">5</button>
-                <button class="btn number">6</button>
-                <button class="btn number">1</button>
-                <button class="btn number">2</button>
-                <button class="btn number">3</button>
-                <button class="btn number zero">0</button>
-                <button class="btn orange result">&equals;</button>
+            <div class="calc-sx flex">
+                <input type="button" value="7" class="btn number">
+                <input type="button" value="8" class="btn number">
+                <input type="button" value="9" class="btn number">
+                <input type="button" value="4" class="btn number">
+                <input type="button" value="5" class="btn number">
+                <input type="button" value="6" class="btn number">
+                <input type="button" value="1" class="btn number">
+                <input type="button" value="2" class="btn number">
+                <input type="button" value="3" class="btn number">
+                <input type="button" value="0" class="btn zero number">
+                <input type="button" value="&equals;" class="btn orange result">
 
             </div>
             <!-- /calc-sx -->
 
             <!-- /calc-dx -->
-            <div class="calc-dx">
-                <button class="btn-dx orange canc">C</button>
-                <button class="btn-dx operations">&plus;</button>
-                <button class="btn-dx operations">&minus;</button>
-                <button class="btn-dx operations">&times;</button>
-                <button class="btn-dx operations">&divide;</button>
+            <div class="calc-dx flex">
+                <input type="button" value="C" class="btn-dx orange canc">
+                <input type="button" value="&plus;" class="btn-dx operations">
+                <input type="button" value="&minus;" class="btn-dx operations">
+                <input type="button" value="&times;" class="btn-dx operations">
+                <input type="button" value="&divide;" class="btn-dx operations">
             </div>
             <!-- /calc-dx -->
 
