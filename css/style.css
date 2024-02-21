@@ -23,17 +23,31 @@ img{
     text-align: center;
 }
 
+.btn{
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.btn-dx{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
 /* CALC */
 
 .calc{
     background-color: #E9E3E3;
-    width: 60%;
+    width: 500px;
     margin-top: 40px;
     border-radius: 20px;
 }
 
 /* HEADER */
-.header-logo{
+.header-logo, .main-calc{
     padding: 20px;
 }
 
@@ -54,3 +68,28 @@ img{
 
 
 /* MAIN-CALC */
+
+.calc-sx{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calc-dx{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-calc{
+    display: flex;
+    height: 600px;
+}
+
+.zero{
+    flex-grow: 2;
+}
